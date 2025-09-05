@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(180deg, #040918, #091540);
+    color: white;
+    /* font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal; */
+}
+.container{
+    width: 90%;
+    margin: auto;
+    height: 155vh;
+    /* position: absolute; */
+    /* right: 0.5rem; */
+    /* left: 5rem; */
+}
+.navbar{
+    height: 2.5rem;
+    margin-top: 1rem;
+    background-color:hsl(228, 7%, 14%);
+    display: flex;
+    border-radius: 0.5rem;
+    justify-content: space-between;
+    /* position: relative; */
+    /* color: white; */
+    /* position: absolute; */
+}
+
+.navbar-logo img{
+    height: 1.5rem;
+    /* background-color: white; */
+    /* opacity: 3; */
+    /* filter: invert(1); */
+    
+}
+/* .nav-logo svg{
+    fill: white;
+} */
+.navbar-logo{
+    /* background : hsl(233, 5%, 35%);
+    opacity: 0.2;
+    border-radius: 7rem; */
+    margin-left:0.5rem ;
+    margin-top: 0.37rem;
+    /* background-position: center; */
+    /* opacity:0.7 ; */
+    /* position: absolute; */
+    /* left: 3rem; */
+    /* left: 1rem; */
+    /* height: 1rem; */
+    /* width: 6rem; */
+}
+.navbar-icon{
+    margin-right: 0.5rem;
+    margin-top: 0.26rem;
+    padding-left: 0.2rem;
+    /* padding-top: 0.2rem; */
+    height: 2rem;
+    width: 2rem;
+    background-color: hsl(225, 23%, 24%);
+    position: relative;
+    border-radius: 0.5rem ;
+    cursor: pointer;
+}
+.navbar-icon img{
+    
+    position: absolute;
+    top: 0.3rem;
+    left: 0.4rem;
+
+}
+.main{
+    /* position: sticky; */
+    /* background-color: red; */
+    /* height: 90vh; */
+    margin-top: 2rem;
+}
+.main-cards{
+    display: flex;
+    /* grid-template-columns: 33% 33% 33%; */
+    flex-wrap: wrap;
+    align-content: flex-start;
+    /* height: 200px; */
+    /* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); */
+    gap: 0.5rem;
+    /* grid-template-rows: 27% 27% 27% */
+    /* 27% 27% 27%; */
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+.main-icons ul{
+    display: flex;
+}
+.main-icons ul li{
+    margin: 0.4rem;
+    background-color: hsl(226, 25%, 17%);
+    list-style: none;
+    border-radius: 2rem;
+    /* margin: 1rem; */
+    padding: 0.5rem 1rem;
+    border: 2px solid black;
+    cursor: pointer;
+    
+}
+
+.main-icons ul li a{
+    text-decoration: none;
+    color: white;
+    /* margin: 1rem; */
+    /* padding: 5rem 1rem 5rem 1rem; */
+}
+.card{
+    /* width: 40%; */
+    /* display: ; */
+    border: 2px solid white;
+    background-color: hsl(228, 7%, 14%);
+    /* margin: 2px; */
+    border-radius: 1rem;
+    overflow: hidden;
+    border: 2px solid black;
+    flex: 0 0 32%;
+    height: 13rem;
+    /* box-sizing: border-box; */
+}
+/* .card.inactive{
+    pointer-events: none;
+} */
+.card-title h1{
+    font-size: 1.8rem;
+}
+.card-title p{
+    color: hsl(226, 11%, 64%);
+    margin-top: 0.3rem;
+}
+.card-mat{
+    display: flex;
+    padding: 1.2rem;
+    height: 40%;
+    width: 90%;
+}
+.card-icon{
+    margin-right: 0.95rem;
+}
+.card-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.9rem;
+    position: relative;
+    top: 0.5rem;
+    margin-left: 1.2rem;
+    width: 95%;
+    height: 20%;
+}
+.card-btn{
+    background-color: hsl(225, 23%, 24%);
+    padding: 0.3rem 0.8rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+.card-btn a{
+    text-decoration: none;
+    color: white;
+}
+.card-toggle{
+    margin-right: 1.2rem;
+    background-color: hsl(3, 71%, 56%);
+    width: 3rem;
+    height: 1.8rem ;
+    border-radius: 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.card-toggle button{
+    height: 1.7rem;
+    width: 1.9em;
+    background-color: white;
+    border-radius: 1rem;
+    position: absolute;
+    top: 0.04rem;
+    cursor: pointer;
+    transition: left 0.3s ease;
+}
+
+@media (min-width: 378px) and (max-width : 1050px) {
+    body{
+        
+    }
+    .container{
+        height: 323vh;
+        /* margin-left: 10rem ;
+        margin-right: 14rem;  */
+    }
+    .navbar{
+        width: 350px;
+    }
+    .main-nav{
+        display: inline-block;
+        /* margin-bottom: 1.2rem; */
+    }
+    .main-logo{
+        margin-left: 2.9rem ;
+        margin-bottom: 0.4rem;
+    }
+    .main-logo h1{
+        font-size: 1.8rem;
+        
+    }
+    .main-icons ul{
+        margin-left: 1.5rem;
+    }
+    .main-icons ul li{
+        padding: 0.5rem 1.2rem;
+        margin-right: -0.1rem;
+    }
+    .main-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        overflow: hidden;
+        width: 350px;
+        padding-bottom: 1rem;
+    }
+    .card-mat{
+        /* width: 20%; */
+    }
+}

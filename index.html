@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extension-UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar-logo">
+                <img  src="./images/logo.svg" alt="logo">
+            </div>
+            <div class="navbar-icon">
+                <img class="nav-img" src="./images/icon-sun.svg" alt="sun">
+            </div>
+        </div>
+        <div class="main">
+            <div class="main-nav">
+                <div class="main-logo">
+                    <h1 class="heading">Extensions List</h1>
+                </div>
+                <div class="main-icons">
+                    <ul>
+                        <li class="main-list" id="allbtn"><a class="main-listA" href="#">All</a></li>
+                        <li class="main-list" id="activebtn"><a class="main-listA" href="#">Active</a></li>
+                        <li class="main-list" id="inactivebtn"><a class="main-listA" href="#">Inactive</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-cards">
+                <div class="card">
+                    <div class="card-mat">
+                        <div class="card-icon">
+                            <img src="./images/logo-devlens.svg" alt="">
+                        </div>
+                        <div class="card-title">
+                            <h1>DevLens</h1>
+                            <p>Quickly inspect page layout and visualize element boundaries.</p>
+                        </div>
+                    </div>
+                    <div class="card-buttons">
+                        <div class="card-btn">
+                            <a href="#">Remove</a>
+                        </div>
+                        <div class="card-toggle">
+                            <button data-state="off"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-mat">
+                        <div class="card-icon">
+                            <img src="./images/logo-style-spy.svg" alt="">
+                        </div>
+                        <div class="card-title">
+                            <h1>StyleSpy</h1>
+                            <p>Instantly analyze and copy CSS from any webpage element.</p>
+                        </div>
+                    </div>
+                    <div class="card-buttons">
+                        <div class="card-btn">
+                            <a href="#">Remove</a>
+                        </div>
+                        <div class="card-toggle">
+                            <button data-state="off"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-mat">
+                        <div class="card-icon">
+                            <img src="./images/logo-speed-boost.svg" alt="">
+                        </div>
+                        <div class="card-title">
+                            <h1>SpeedBoost</h1>
+                            <p>Optimizes browser resource usage to accelerate page loading.</p>
+                        </div>
+                    </div>
+                    <div class="card-buttons">
+                        <div class="card-btn">
+                            <a href="#">Remove</a>
+                        </div>
+                        <div class="card-toggle">
+                            <button data-state="off"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-mat">
+                        <div class="card-icon">
+                            <img src="./images/logo-json-wizard.svg" alt="">
+                        </div>
+                        <div class="card-title">
+                            <h1>JSONWizard</h1>
+                            <p>Formats,validates, and prettifies JSON responses in-browser.</p>
+                        </div>
+                    </div>
+                    <div class="card-buttons">
+                        <div class="card-btn">
+                            <a href="#">Remove</a>
+                        </div>
+                        <div class="card-toggle">
+                            <button data-state="off"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-mat">
+                        <div class="card-icon">
+                            <img src="./images/logo-tab-master-pro.svg" alt="">
+                        </div>
+                        <div class="card-title">
+                            <h1>TabMaster Pro</h1>
+                            <p>Organizes browser tabs into groups and sessions.</p>
+                        </div>
+                    </div>
+                    <div class="card-buttons">
+                        <div class="card-btn">
+                            <a href="#">Remove</a>
+                        </div>
+                        <div class="card-toggle">
+                            <button data-state="off"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-mat">
+                        <div class="card-icon">
+                            <img src="./images/logo-viewport-buddy.svg" alt="">
+                        </div>
+                        <div class="card-title">
+                            <h1>ViewportBuddy</h1>
+                            <p>Simulates various screen resolutions directly within the browser.</p>
+                        </div>
+                    </div>
+                    <div class="card-buttons">
+                        <div class="card-btn">
+                            <a href="#">Remove</a>
+                        </div>
+                        <div class="card-toggle">
+                            <button data-state="off"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-mat">
+                        <div class="card-icon">
+                            <img src="./images/logo-markup-notes.svg" alt="">
+                        </div>
+                        <div class="card-title">
+                            <h1>Markup Notes</h1>
+                            <p>Enables annotation and notes directly onto webpages for collaborative debugging.</p>
+                        </div>
+                    </div>
+                    <div class="card-buttons">
+                        <div class="card-btn">
+                            <a href="#">Remove</a>
+                        </div>
+                        <div class="card-toggle">
+                            <button data-state="off"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-mat">
+                        <div class="card-icon">
+                            <img src="./images/logo-grid-guides.svg" alt="">
+                        </div>
+                        <div class="card-title">
+                            <h1>GridGuides</h1>
+                            <p>Overlay customizable grids and alignment guides on any webpage.</p>
+                        </div>
+                    </div>
+                    <div class="card-buttons">
+                        <div class="card-btn">
+                            <a href="#">Remove</a>
+                        </div>
+                        <div class="card-toggle">
+                            <button data-state="off"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-mat">
+                        <div class="card-icon">
+                            <img src="./images/logo-palette-picker.svg" alt="">
+                        </div>
+                        <div class="card-title">
+                            <h1>Palette Picker</h1>
+                            <p>Instantly extracts color palettes from any webpage.</p>
+                        </div>
+                    </div>
+                    <div class="card-buttons">
+                        <div class="card-btn">
+                            <a href="#">Remove</a>
+                        </div>
+                        <div class="card-toggle">
+                            <button data-state="off"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-mat">
+                        <div class="card-icon">
+                            <img src="./images/logo-link-checker.svg" alt="">
+                        </div>
+                        <div class="card-title">
+                            <h1>LinkChecker</h1>
+                            <p>Scans and highlights broken links on any page.</p>
+                        </div>
+                    </div>
+                    <div class="card-buttons">
+                        <div class="card-btn">
+                            <a href="#">Remove</a>
+                        </div>
+                        <div class="card-toggle">
+                            <button data-state="off"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-mat">
+                        <div class="card-icon">
+                            <img src="./images/logo-dom-snapshot.svg" alt="">
+                        </div>
+                        <div class="card-title">
+                            <h1>Dom Snapshot</h1>
+                            <p>Capture and export DOM structures quickly.</p>
+                        </div>
+                    </div>
+                    <div class="card-buttons">
+                        <div class="card-btn">
+                            <a href="#">Remove</a>
+                        </div>
+                        <div class="card-toggle">
+                            <button data-state="off"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-mat">
+                        <div class="card-icon">
+                            <img src="./images/logo-console-plus.svg" alt="">
+                        </div>
+                        <div class="card-title">
+                            <h1>ConsolePlus</h1>
+                            <p>Enchanced developer console with advanced filtering and logging.</p>
+                        </div>
+                    </div>
+                    <div class="card-buttons">
+                        <div class="card-btn">
+                            <a href="#">Remove</a>
+                        </div>
+                        <div class="card-toggle">
+                            <button data-state="off"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
